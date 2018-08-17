@@ -29,9 +29,9 @@ require_relative '../config/environment'
 
     game = Game.new(player_1, player_2)
 
-    # until game.over?
-    #   game.play
-    # end
+    until game.over?
+      game.play
+    end
 
 
     if game.over?
